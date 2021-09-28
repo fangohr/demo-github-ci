@@ -3,7 +3,7 @@ def f(n):                     # "production code"
     # Loop from 0 to n:
     for i in range(1, n + 1):
         s = s + i 
-    return s + 1
+    return s
 
 
 def test_f():                 # "test code"
